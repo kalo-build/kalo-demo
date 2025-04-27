@@ -1,0 +1,5 @@
+name: UserRole
+type: String
+entries:
+  Admin: 'admin'
+  Member: 'member'

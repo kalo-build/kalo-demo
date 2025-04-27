@@ -1,0 +1,10 @@
+name: User
+fields:
+  ID:
+    type: String
+  Name:
+    type: String
+  Email:
+    type: String
+  NumTasks:
+    type: Integer

@@ -1,0 +1,16 @@
+name: Task
+fields:
+  ID:
+    type: String
+  UserID:
+    type: String
+  Title:
+    type: String
+  Description:
+    type: String
+  Priority:
+    type: Integer
+  Status:
+    type: String
+  IsDue:
+    type: Boolean

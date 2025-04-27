@@ -1,0 +1,7 @@
+name: TaskStatus
+type: String
+entries:
+  Todo: 'todo'
+  InProgress: 'in_progress'
+  Done: 'done'
+  Cancelled: 'cancelled'

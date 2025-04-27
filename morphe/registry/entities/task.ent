@@ -1,0 +1,21 @@
+name: Task
+fields:
+  ID:
+    type: Task.ID
+  Title:
+    type: Task.Title
+  Description:
+    type: Task.Description
+  Priority:
+    type: Task.Priority
+  Status:
+    type: Task.Status
+  DueAt:
+    type: Task.DueAt
+identifiers:
+  primary: ID
+related:
+  User:
+    type: ForOne
+  Comment:
+    type: HasMany
