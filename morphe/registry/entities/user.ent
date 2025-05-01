@@ -2,8 +2,10 @@ name: User
 fields:
   ID:
     type: User.ID
-  Name:
-    type: User.Name
+  FirstName:
+    type: User.FirstName
+  LastName:
+    type: User.LastName
   Password:
     type: User.Password
   Role:
@@ -14,6 +16,4 @@ identifiers:
   primary: ID
 related:
   Task:
-    type: HasMany
-  Comment:
     type: HasMany

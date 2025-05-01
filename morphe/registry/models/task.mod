@@ -21,5 +21,3 @@ identifiers:
 related:
   User:
     type: ForOne
-  Comment:
-    type: HasMany

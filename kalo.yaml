@@ -19,6 +19,15 @@ stores:
     path: "$KA_MO_GO_PATH"
 
 config:
+  "@kalo-build/plugin-morphe-go-struct":
+    models:
+      "PackagePath": "github.com/kalo-build/kalo-demo/internal/models"
+    enums:
+      "PackagePath": "github.com/kalo-build/kalo-demo/internal/enums"
+    structures:
+      "PackagePath": "github.com/kalo-build/kalo-demo/internal/structures"
+    entities:
+      "PackagePath": "github.com/kalo-build/kalo-demo/internal/entities"
   "@kalo-build/plugin-morphe-psql-types":
     structures:
       "Schema": "public"
@@ -27,13 +36,14 @@ config:
 
 pipelines:
   compile:
-    - stage: "psql-types"
+    stages:
+    - name: "psql-types"
       steps:
         - "plugin: @kalo-build/plugin-morphe-psql-types"
-    - stage: "go-struct"
+    - name: "go-struct"
       steps:
         - "plugin: @kalo-build/plugin-morphe-go-struct"
-    - stage: "ts-types"
+    - name: "ts-types"
       steps:
         - "plugin: @kalo-build/plugin-morphe-ts-types"
 

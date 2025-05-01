@@ -4,7 +4,9 @@ fields:
     type: UUID
     attributes:
       - mandatory
-  Name:
+  FirstName:
+    type: String
+  LastName:
     type: String
   Password:
     type: Sealed
@@ -16,6 +18,4 @@ related:
   ContactInfo:
     type: HasOne
   Task:
-    type: HasMany
-  Comment:
     type: HasMany

@@ -13,8 +13,8 @@ plugins:
     location: ".kalo/plugins/morphe-ts-types-v1.0.0.wasm"
     downloadedAt: "2023-04-30T10:15:35Z"
 
-  "@kalo-build/plugin-morphe-go-structs":
+  "@kalo-build/plugin-morphe-go-struct":
     version: "v1.0.0"
     resolvedHash: "sha256:e5f6a7b8c9d0ea5b6c7d8e9f0a11f2a3a1b2c3d4b4cf4b25d6e7f8a9b0c1d2e3c"
-    location: ".kalo/plugins/morphe-go-structs-v1.0.0.wasm"
+    location: ".kalo/plugins/morphe-go-struct-v1.0.0.wasm"
     downloadedAt: "2023-04-30T10:15:35Z"
