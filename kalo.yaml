@@ -21,13 +21,13 @@ stores:
 config:
   "@kalo-build/plugin-morphe-go-struct":
     models:
-      "PackagePath": "github.com/kalo-build/kalo-demo/internal/models"
+      "PackagePath": "github.com/kalo-build/kalo-demo/internal/types/models"
     enums:
-      "PackagePath": "github.com/kalo-build/kalo-demo/internal/enums"
+      "PackagePath": "github.com/kalo-build/kalo-demo/internal/types/enums"
     structures:
-      "PackagePath": "github.com/kalo-build/kalo-demo/internal/structures"
+      "PackagePath": "github.com/kalo-build/kalo-demo/internal/types/structures"
     entities:
-      "PackagePath": "github.com/kalo-build/kalo-demo/internal/entities"
+      "PackagePath": "github.com/kalo-build/kalo-demo/internal/types/entities"
   "@kalo-build/plugin-morphe-psql-types":
     structures:
       "Schema": "public"
